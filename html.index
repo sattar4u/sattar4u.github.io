@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <title>Abdul Sattar Jamali - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        /* Simple CSS to make it look clean immediately */
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
         header { text-align: center; padding: 50px 0; }
         h1 { margin-bottom: 10px; }
@@ -18,9 +17,9 @@
 <body>
 
     <header>
-        <h1>[Your Name]</h1>
-        <p>Software Engineering Student & Developer</p>
-        <p>Building solutions with [Your Top Skill 1] and [Your Top Skill 2]</p>
+        <h1>Abdul Sattar Jamali</h1>
+        <p>Software Engineering Student & Android Developer</p>
+        <p>Building apps with Java, Android Studio & Web Technologies</p>
         <br>
         <a href="#projects" class="btn">View My Work</a>
     </header>
@@ -30,18 +29,52 @@
     <section id="about">
         <h2>About Me</h2>
         <p>
-            I am currently studying Software Engineering. I have a passion for building interactive web tools 
-            and working with hardware sensors like Arduino.
+            I am Abdul Sattar Jamali, currently studying Software Engineering. I am passionate about building
+            Android applications, experimenting with UI/UX, and exploring futuristic concepts like time travel
+            and astral projection. I enjoy creating small tools, calculators, login systems, WebViews, and
+            replicating modern app UIs such as Instagram.
+        </p>
+        <p>
+            I love helping others, spreading positivity, and constantly learning new technologies. I also work
+            with hardware sensors like Arduino and enjoy exploring the spiritual world.
         </p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        
+
         <div class="project-card">
-            <h3>Project Title 1</h3>
-            <p>A brief description of what this project does and the problem it solves.</p>
-            <p><strong>Tech Stack:</strong> HTML, JavaScript, CSS</p>
+            <h3>Android Activity Lifecycle Demo</h3>
+            <p>A demonstration app showing all activity lifecycle methods with clean UI.</p>
+            <p><strong>Tech Stack:</strong> Java, Android Studio</p>
+            <a href="#">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Simple Calculator App</h3>
+            <p>An elegant and functional calculator app for Android.</p>
+            <p><strong>Tech Stack:</strong> Java, Android Studio</p>
+            <a href="#">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Simple Login App</h3>
+            <p>A clean UI login interface that prints the input field data.</p>
+            <p><strong>Tech Stack:</strong> Java, Android Studio</p>
+            <a href="#">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Instagram Home UI Clone</h3>
+            <p>A mobile app replicating Instagram's home page layout and design.</p>
+            <p><strong>Tech Stack:</strong> XML Layouts, Java, Android Studio</p>
+            <a href="#">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h3>WebView, ImageView & Intent Demo</h3>
+            <p>A multipurpose Android app demonstrating WebView, image handling, background gradients, and explicit intents.</p>
+            <p><strong>Tech Stack:</strong> Java, Android Studio</p>
             <a href="#">View Code</a>
         </div>
 
@@ -51,10 +84,18 @@
             <p><strong>Tech Stack:</strong> C++, Arduino, LCD Display</p>
             <a href="#">View Code</a>
         </div>
+
+        <div class="project-card">
+            <h3>Game Concept: Learn Python Through Play</h3>
+            <p>A conceptual game design teaching basic Python programming skills.</p>
+            <p><strong>Tech Stack:</strong> Game Design, Python Concepts</p>
+            <a href="#">View Details</a>
+        </div>
+
     </section>
 
     <footer>
-        <p>Contact me at: <a href="mailto:your@email.com">your@email.com</a></p>
+        <p>Contact me at: <a href="mailto:sattar4u@example.com">sattar4u@example.com</a></p>
         <p>
             <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
         </p>
